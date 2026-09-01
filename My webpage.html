@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<head>
+    <title>Create a Better World</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f9f4;
+            color: #333;
+        }
+
+        /* Navigation */
+        nav {
+            background: #2e7d32;
+            padding: 15px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: #c8e6c9;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #81c784, #e8f5e9);
+        }
+
+        .hero-content {
+            max-width: 700px;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            color: #1b5e20;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        button {
+            background: #2e7d32;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #1b5e20;
+            transform: scale(1.05);
+        }
+
+        /* About Section */
+        .about {
+            padding: 70px 10%;
+            text-align: center;
+        }
+
+        .about h2 {
+            color: #2e7d32;
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            max-width: 700px;
+            margin: auto;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Actions Section */
+        .actions {
+            background: #e8f5e9;
+            padding: 70px 10%;
+            text-align: center;
+        }
+
+        .actions h2 {
+            color: #2e7d32;
+            font-size: 35px;
+            margin-bottom: 40px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            padding: 30px 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card h3 {
+            color: #2e7d32;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            line-height: 1.5;
+        }
+
+        /* Footer */
+        footer {
+            background: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 38px;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            nav ul li {
+                margin: 0 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">🌍 Better World</div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="my about.html">About</a></li>
+            <li><a href="actions.html">Actions</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Create a Better World 🌎</h1>
+
+            <p>
+                Small actions can create big changes. Together, we can
+                protect our planet, help our communities, and build a
+                better future for everyone.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <h2>My Mission</h2>
+
+        <p>
+            I create this webpage because I want to infrom everyone that we can help our world, in a simple or little effort we can protect our planet, our world. 
+        </p>
+    </section>
+
+  
+    <!-- Footer -->
+    <footer>
+        <p>🌍 Together, we can create a better world for us. 🌱</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("Thank you for choosing to be part of the change in this world! 🌍💚");
+        }
+    </script>
+
+</body>
+</html>
